@@ -4,6 +4,7 @@ class Person:
         self.surname = surname
         self.age = age
         self.phone = phone
+        
 
     def showInfo(self):
-        pass
+        print(f"Name:{self.name}\nSurname{self.surname}\nAge:{self.age}\nPhone:{self.phone}")
