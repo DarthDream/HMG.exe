@@ -8,10 +8,11 @@ class Patient(Person):
         self.__medicalHistory = medicalHistory # private
 
     def showInfo(self):
-        pass
+        print(f"Name:{self.name}\nSurname:{self.surname}\nPhone:{self.phone}")
 
     def getMedicalHistory(self):
-        pass
+        return self.__medicalHistory
 
-    def updateMedicalHistory(self):
-        pass
+    def updateMedicalHistory(self,newHistory):
+        self.__medicalHistory = newHistory
+        print("Medical history updated successfully!")
