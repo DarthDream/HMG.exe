@@ -6,4 +6,4 @@ class Appointment():
         self.date = date
 
     def showInfo(self):
-        pass
+        print(f"Date:{self.date}\nAppointmentID:{self.appointmentID},Doctor:{self.doctor}")
