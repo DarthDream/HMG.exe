@@ -8,4 +8,4 @@ class Doctor(Person):
         self.experience = experience
 
     def showInfo(self):
-        pass
+        print(f"Name:{self.name}\nSurname:{self.surname}\nPhone:{self.phone}")
