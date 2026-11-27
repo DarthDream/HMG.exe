@@ -11,7 +11,7 @@ class Hospital:
         self.doctors.append(doctor)
 
     def addPatient(self, patient):
-        self.patients(patient)
+        self.patients.append(patient)
 
     def showDoctors(self):
         return self.doctors
@@ -20,7 +20,7 @@ class Hospital:
         return self.patients
 
     def createAppointment(self, doctorID, patientID, date):
-        self.appointments(doctorID,patientID,date)
+        self.appointments.append(doctorID,patientID,date)
 
     def showAppointments(self):
         return self.appointments
